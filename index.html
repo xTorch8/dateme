@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> Do you want do date me? </h1>
-    <button>
-        Yes
-    </button>
-    <button>
-        No
-    </button>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Do you want do date me?</h1>
+		<button id="yes-button">Yes</button>
+		<button id="no-button">No</button>
+
+		<script>
+			document.getElementById("yes-button").addEventListener("click", function () {
+				alert("YEY. LOV U.");
+			});
+		</script>
+	</body>
 </html>

@@ -1,0 +1,15 @@
+button {
+	color: white;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+#yes-button {
+	background-color: green;
+}
+
+#no-button {
+	background-color: red;
+}
